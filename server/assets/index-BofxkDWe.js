@@ -1,5 +1,5 @@
-import { r as reactExports, U as jsxRuntimeExports, a0 as React, T as React$1 } from "./worker-entry-D4BkBWoR.js";
-import { R as ReactDOM } from "./router-BSIUprZ9.js";
+import { r as reactExports, U as jsxRuntimeExports, a0 as React, T as React$1 } from "./worker-entry-DS7vUbHx.js";
+import { R as ReactDOM } from "./router-DfRQuaB9.js";
 import "node:events";
 import "node:async_hooks";
 import "node:stream/web";
