@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <script>
-      const path = window.location.pathname;
       const repo = "/interactive-portfolio-hub";
+      const current = window.location.pathname + window.location.search + window.location.hash;
+      let redirect = current;
 
-      sessionStorage.redirect =
-        path.replace(repo, "");
+      if (redirect.startsWith(repo)) {
+        redirect = redirect.slice(repo.length);
+      }
 
-      window.location.replace(repo + "/");
+      if (!redirect) {
+        redirect = "/";
+      }
+
+      const destination = `${repo}/?redirect=${encodeURIComponent(redirect)}`;
+      window.location.replace(destination);
     </script>
   </head>
   <body></body>
