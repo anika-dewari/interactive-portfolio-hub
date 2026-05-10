@@ -1,9 +1,9 @@
-import { a0, a1 } from "./assets/worker-entry-C32q0yPe.js";
+import { a1, a2 } from "./assets/worker-entry-BfBczH5S.js";
 import "node:events";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
 export {
-  a0 as createServerEntry,
-  a1 as default
+  a1 as createServerEntry,
+  a2 as default
 };
